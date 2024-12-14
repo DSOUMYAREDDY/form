@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form_container">
+        <h2>Employee work status</h2>
+        <form action="">
+            <div class="form_group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form_group">
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Enter your age">
+            </div>
+            <div class="form_group">
+                <label for="">Gender:</label>
+                <div class="gender_group">
+                    <label for=""><input type="radio" name="gender" value="female">Female</label>
+                    <label for=""><input type="radio" name="gender" value="male">Male</label>
+                </div>
+            </div>
+            <div class="form_group">
+                <label for="role">Role:</label>
+                <select name="role" id="role">
+                    <option value="java">JAVA DEVELOPER</option>
+                    <option value="python">PYTHON DEVELOPER</option>
+                    <option value="web">WEB DEVELOPER</option>
+                </select>
+        
+            </div>
+            <button type="submit" class="btn">Submit</button>
+    
+        </form>
+
+    </div>
+</body>
+</html>
